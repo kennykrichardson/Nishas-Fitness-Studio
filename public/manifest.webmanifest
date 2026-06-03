@@ -1,0 +1,20 @@
+{
+  "name": "Nisha's Fitness Studio",
+  "short_name": "Nisha's Fitness",
+  "description": "Premium gym memberships, personal training, expert trainers, and fitness guidance from Nisha's Fitness Studio.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#050505",
+  "theme_color": "#f97316",
+  "categories": ["fitness", "health", "sports"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
