@@ -7,8 +7,8 @@ import { MapPin } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
   { label: "Packages", href: "#packages" },
+  { label: "About Us", href: "#about" },
   { label: "Trainers", href: "#about" },
   { label: "Gallery", href: "#gallery" },
   { label: "Contact Us", href: "#contact" },
@@ -221,8 +221,8 @@ export default function Navbar() {
               </motion.div>
 
               <div className="mt-auto grid gap-4 border-t border-white/10 pt-6">
-                <AnimatedButton href="#contact" onClick={closeMenu} className="w-full">
-                  Join Now
+                <AnimatedButton href="https://maps.app.goo.gl/465RRbwXa4m8KKqH7" target="_blank" rel="noopener noreferrer" onClick={closeMenu} className="w-full">
+                  Find Us Here
                 </AnimatedButton>
                 <AnimatedButton href="tel:+919866150617" variant="secondary" onClick={closeMenu} className="w-full">
                   Call Now

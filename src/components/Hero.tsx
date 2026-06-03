@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import AnimatedButton from "./AnimatedButton";
 import heroImage from "../assets/hero.png";
+import { MapPin } from "lucide-react";
 
 export default function Hero() {
   const { scrollY } = useScroll();
@@ -60,7 +61,17 @@ style={{
               visible: { opacity: 1, y: 0, transition: { duration: 0.72 } },
             }}
           >
-            <AnimatedButton href="#contact">Join Now</AnimatedButton>
+                <AnimatedButton
+      href="https://maps.app.goo.gl/465RRbwXa4m8KKqH7"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span className="inline-flex items-center gap-2">
+        <MapPin className="h-4 w-4" />
+        Find Us
+      </span>
+    </AnimatedButton>
+    
             <AnimatedButton href="#packages" variant="secondary">
               View Packages
             </AnimatedButton>
