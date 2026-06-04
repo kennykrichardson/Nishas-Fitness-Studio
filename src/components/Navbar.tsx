@@ -45,7 +45,7 @@ export default function Navbar() {
 <div className="flex items-center">
   <motion.button
     type="button"
-    className="focus-ring mr-13 grid h-11 w-11 place-items-center rounded border border-orange-500/60 bg-orange-500/10 text-orange-300 shadow-[0_0_28px_rgba(249,115,22,0.18)] md:hidden"
+    className="focus-ring mr-13 grid h-11 w-11 place-items-center rounded border border-[#F0C34A]/60 bg-[#F0C34A]/10 text-[#F0C34A] shadow-[0_0_28px_rgba(240,195,74,0.22)] md:hidden"
     aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
     aria-expanded={isOpen}
     aria-controls="mobile-sidebar"
@@ -93,7 +93,7 @@ export default function Navbar() {
   className="h-12 w-12 object-contain"
 />
     <span className="leading-none">
-      <span className="block text-xl font-black uppercase tracking-[0.1em] text-orange-500">
+      <span className="block text-xl font-black uppercase tracking-[0.1em] text-[#F0C34A]">
         Nisha's
       </span>
       <span className="block text-[0.65rem] font-bold uppercase tracking-[0.36em] text-white/80">
@@ -107,14 +107,14 @@ export default function Navbar() {
       <motion.a
         key={link.label}
         href={link.href}
-        className="focus-ring group relative rounded text-xs font-black uppercase tracking-[0.08em] text-stone-200 transition-colors duration-300 hover:text-orange-400"
+        className="focus-ring group relative rounded text-xs font-black uppercase tracking-[0.08em] text-stone-200 transition-colors duration-300 hover:text-[#F0C34A]"
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.96 }}
         transition={{ type: "spring", stiffness: 260, damping: 23 }}
       >
         {link.label}
         <motion.span
-          className="absolute -bottom-2 left-0 h-0.5 w-full origin-left rounded-full bg-orange-500"
+          className="absolute -bottom-2 left-0 h-0.5 w-full origin-left rounded-full bg-[#1679BF]"
           initial={{ scaleX: 0 }}
           whileHover={{ scaleX: 1 }}
           transition={{ duration: 0.34, ease: [0.22, 1, 0.36, 1] }}
@@ -154,7 +154,7 @@ export default function Navbar() {
             />
 <motion.aside
   id="mobile-sidebar"
-  className="fixed bottom-0 left-0 top-0 z-50 flex w-[min(86vw,22rem)] flex-col border-r border-orange-500/35 bg-[#070707]/95 px-6 pb-8 pt-6 shadow-[24px_0_80px_rgba(0,0,0,0.65)] backdrop-blur-2xl md:hidden"
+  className="fixed bottom-0 left-0 top-0 z-50 flex w-[min(86vw,22rem)] flex-col border-r border-[#F0C34A]/35 bg-[#070707]/95 px-6 pb-8 pt-6 shadow-[24px_0_80px_rgba(0,0,0,0.65)] backdrop-blur-2xl md:hidden"
   initial={{ x: "-105%", opacity: 0.7 }}
   animate={{ x: 0, opacity: 1 }}
   exit={{ x: "-105%", opacity: 0.75 }}
@@ -167,7 +167,7 @@ export default function Navbar() {
   className="h-12 w-12 object-contain"
 />
                   <span className="leading-none">
-<span className="block font-gym text-3xl leading-none tracking-[0.12em] text-orange-500">
+<span className="block font-gym text-3xl leading-none tracking-[0.12em] text-[#F0C34A]">
   NISHA'S
 </span>
 
@@ -204,7 +204,7 @@ export default function Navbar() {
                   <motion.a
                     key={link.label}
                     href={link.href}
-                    className="focus-ring group flex items-center justify-between rounded border border-white/10 bg-white/[0.04] px-4 py-4 text-sm font-black uppercase tracking-[0.12em] text-stone-100 transition-colors duration-300 hover:border-orange-500/70 hover:bg-orange-500/10 hover:text-orange-300"
+                    className="focus-ring group flex items-center justify-between rounded border border-white/10 bg-white/[0.04] px-4 py-4 text-sm font-black uppercase tracking-[0.12em] text-stone-100 transition-colors duration-300 hover:border-[#F0C34A]/70 hover:bg-[#F0C34A]/10 hover:text-[#F0C34A]"
                     onClick={closeMenu}
                     variants={{
                       hidden: { opacity: 0, x: 24, filter: "blur(6px)" },
@@ -215,7 +215,7 @@ export default function Navbar() {
                     whileTap={{ scale: 0.97 }}
                   >
                     {link.label}
-                    <span className="h-px w-8 bg-orange-500/70 transition-all duration-300 group-hover:w-12" />
+                    <span className="h-px w-8 bg-[#F0C34A]/70 transition-all duration-300 group-hover:w-12" />
                   </motion.a>
                 ))}
               </motion.div>

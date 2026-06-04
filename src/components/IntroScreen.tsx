@@ -88,7 +88,7 @@ useEffect(() => {
               Nisha's
             </h1>
 
-            <p className="mt-2 text-center text-lg font-bold uppercase tracking-[0.5em] text-orange-600">
+            <p className="mt-2 text-center text-lg font-bold uppercase tracking-[0.5em] text-[#F0C34A]">
               Fitness Studio
             </p>
             <p className="mt-4 px-6 text-center text-xs font-semibold uppercase tracking-[0.25em] text-stone-500"> 

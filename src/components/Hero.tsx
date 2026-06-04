@@ -20,7 +20,7 @@ style={{
   backgroundImage: `url(${heroImage})`,
 }}
       />
-      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(5,5,5,0.96)_0%,rgba(5,5,5,0.78)_38%,rgba(5,5,5,0.28)_68%,rgba(5,5,5,0.72)_100%),linear-gradient(180deg,rgba(5,5,5,0.35),rgba(5,5,5,0.62))]" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(7,16,24,0.96)_0%,rgba(7,16,24,0.78)_38%,rgba(7,16,24,0.28)_68%,rgba(7,16,24,0.72)_100%),linear-gradient(180deg,rgba(7,16,24,0.35),rgba(7,16,24,0.62))]" />
       <div className="luxury-grid absolute inset-0 opacity-45" />
 
       <motion.div
@@ -42,7 +42,7 @@ style={{
             }}
           >
             <span className="grit-text block">Your Fitness</span>
-            <span className="block text-orange-500">Our Mission</span>
+            <span className="block text-[#F0C34A]">Our Mission</span>
           </motion.h1>
           <motion.p
             className="mt-7 max-w-xl text-lg leading-8 text-stone-100 sm:text-xl"
@@ -86,9 +86,9 @@ style={{
           }}
         >
           <div className="relative mr-2 mt-48 border border-white/80 px-10 py-8 text-center backdrop-blur-sm">
-            <div className="absolute -bottom-px -left-px h-10 w-10 border-b-4 border-l-4 border-[#ff6900]" />
-            <div className="absolute -bottom-px -right-px h-10 w-10 border-b-4 border-r-4 border-[#ff6900]" />
-            <p className="gym-heading text-3xl leading-tight text-orange-500">
+            <div className="absolute -bottom-px -left-px h-10 w-10 border-b-4 border-l-4 border-[#1679BF]" />
+            <div className="absolute -bottom-px -right-px h-10 w-10 border-b-4 border-r-4 border-[#1679BF]" />
+            <p className="gym-heading text-3xl leading-tight text-[#F0C34A]">
               Start Your
               <br />
               Fitness Journey

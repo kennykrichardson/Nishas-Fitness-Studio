@@ -60,7 +60,7 @@ export default function About() {
                 }}
               >
                 <Icon
-                  className="h-12 w-12 shrink-0 text-orange-500"
+                  className="h-12 w-12 shrink-0 text-[#1679BF]"
                   strokeWidth={2.3}
                 />
 
@@ -95,7 +95,7 @@ export default function About() {
             </motion.h2>
 
             <motion.div
-              className="mt-2 h-0.5 w-52 bg-orange-500"
+              className="mt-2 h-0.5 w-52 bg-[#F0C34A]"
               variants={fadeUp}
             />
 
@@ -148,7 +148,7 @@ export default function About() {
                 />
 
                 <div className="flex items-start gap-4 p-5">
-                  <div className="rounded-xl border border-orange-500/40 bg-orange-500/10 p-3 text-orange-500">
+                  <div className="rounded-xl border border-[#1679BF]/40 bg-[#F0C34A]/10 p-3 text-[#1679BF]">
                     <UserRoundCheck
                       className="h-5 w-5"
                       strokeWidth={2.4}

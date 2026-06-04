@@ -22,8 +22,9 @@ body {
   margin: 0;
   overflow-x: hidden;
   background:
-    radial-gradient(circle at top left, rgba(249, 115, 22, 0.12), transparent 28rem),
-    linear-gradient(180deg, #050505 0%, #0b1012 42%, #050505 100%);
+    radial-gradient(circle at top left, rgba(22,121,191,0.16), transparent 28rem),
+    radial-gradient(circle at top right, rgba(240,195,74,0.08), transparent 24rem),
+    linear-gradient(180deg, #071018 0%, #0d1823 42%, #071018 100%);
 }
 
 * {
@@ -49,7 +50,7 @@ a {
 }
 
 .focus-ring:focus-visible {
-  outline-color: #f97316;
+  outline-color: #1679BF;
 }
 
 .gym-heading {
@@ -71,7 +72,12 @@ a {
 }
 
 .orange-gradient {
-  background: linear-gradient(135deg, #ff8a00 0%, #f97316 48%, #c2410c 100%);
+  background: linear-gradient(
+    135deg,
+    #F0C34A 0%,
+    #E0B33A 50%,
+    #C79A25 100%
+  );
 }
 
 /* ===== NISHA'S FITNESS SCROLLBAR ===== */
@@ -81,28 +87,30 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background: #050505;
+  background: #071018;
 }
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(
     180deg,
-    #fb923c,
-    #f97316,
-    #ea580c
+    #1679BF,
+    #1B8BDD,
+    #F0C34A
   );
+
   border-radius: 999px;
-  border: 2px solid #050505;
+  border: 2px solid #071018;
+
   box-shadow:
-    0 0 10px rgba(249, 115, 22, 0.35),
-    0 0 20px rgba(249, 115, 22, 0.2);
+    0 0 10px rgba(22,121,191,0.35),
+    0 0 20px rgba(240,195,74,0.2);
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(
     180deg,
-    #fdba74,
-    #fb923c,
-    #f97316
+    #1B8BDD,
+    #49A5EA,
+    #F0C34A
   );
 }

@@ -16,7 +16,7 @@ const icons = {
 export default function Packages() {
   return (
     <section id="packages" className="relative px-4 py-16 sm:px-6 lg:px-8">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(249,115,22,0.12),transparent_28rem)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(22,121,191,0.12),transparent_28rem)]" />
       <motion.div
         className="relative mx-auto max-w-7xl"
         initial="hidden"
@@ -43,7 +43,7 @@ export default function Packages() {
                   key={item.id}
                   className={`relative grid min-h-52 grid-cols-[4.5rem_1fr] gap-5 rounded-lg border p-7 shadow-[0_20px_70px_rgba(0,0,0,0.34)] backdrop-blur ${
                     item.recommended
-                      ? "border-orange-400/80 bg-orange-500/[0.08]"
+                      ? "border-[#F0C34A]/80 bg-[#F0C34A]/[0.08]"
                       : "border-white/35 bg-black/28"
                   }`}
                   variants={fadeUp}
@@ -54,10 +54,10 @@ export default function Packages() {
                   }}
                   transition={{ type: "spring", stiffness: 190, damping: 25, mass: 0.85 }}
                 >
-                  <Icon className="mt-1 h-12 w-12 text-orange-500" strokeWidth={2.4} />
+                  <Icon className="mt-1 h-12 w-12 text-[#1679BF]" strokeWidth={2.4} />
                   <div>
                     {item.recommended ? (
-                      <div className="mb-2 text-xs font-black uppercase tracking-[0.12em] text-orange-400">
+                      <div className="mb-2 text-xs font-black uppercase tracking-[0.12em] text-[#F0C34A]">
                         Recommended
                       </div>
                     ) : null}

@@ -16,7 +16,7 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-[#070a0b] px-4 py-14 sm:px-6 lg:px-8">
       <motion.div
-        className="relative mx-auto max-w-7xl overflow-hidden rounded-lg border border-orange-400/35 bg-black/55 px-6 py-12 shadow-[0_30px_110px_rgba(0,0,0,0.55)] sm:px-10 lg:px-14"
+        className="relative mx-auto max-w-7xl overflow-hidden rounded-lg border border-[#F0C34A]/35 bg-black/55 px-6 py-12 shadow-[0_30px_110px_rgba(0,0,0,0.55)] sm:px-10 lg:px-14"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.24 }}
@@ -24,12 +24,12 @@ export default function Contact() {
         whileHover={{ y: -5, scale: 1.008 }}
         transition={{ type: "spring", stiffness: 170, damping: 26, mass: 0.9 }}
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_82%_24%,rgba(249,115,22,0.24),transparent_26rem)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_82%_24%,rgba(22,121,191,0.24),transparent_26rem)]" />
         <div className="luxury-grid absolute inset-0 opacity-30" />
         <div className="relative grid items-center gap-10 lg:grid-cols-[1fr_auto]">
           <div>
             <motion.p
-              className="text-sm font-black uppercase tracking-[0.18em] text-orange-400"
+              className="text-sm font-black uppercase tracking-[0.18em] text-[#F0C34A]"
               variants={fadeUp}
             >
               Contact Us
@@ -38,10 +38,10 @@ export default function Contact() {
               className="gym-heading mt-3 max-w-3xl text-5xl leading-none text-white sm:text-6xl"
               variants={fadeUp}
             >
-              Start Your Fitness Journey Today
+              Start Your Fitness Journey <span className="text-[#F0C34A]">Today</span>
             </motion.h2>
             <motion.p className="mt-5 text-xl font-bold text-stone-200" variants={fadeUp}>
-              Phone Number: <a className="focus-ring rounded text-orange-300" href={phoneHref}>{phone}</a>
+              Phone Number: <a className="focus-ring rounded text-[#F0C34A]" href={phoneHref}>{phone}</a>
             </motion.p>
           </div>
           <motion.div className="flex flex-col gap-4 sm:flex-row lg:flex-col" variants={fadeUp}>
@@ -54,7 +54,7 @@ export default function Contact() {
 <AnimatedButton
   onClick={() => setLeadModalOpen(true)}
   variant="secondary"
-  className="bg-transparent border-white/30 hover:border-orange-500 focus:ring-orange-500"
+  className="bg-transparent border-white/30 hover:border-[#F0C34A] hover:border-[#F0C34A]"
 >
   <span className="inline-flex items-center gap-2 bg-transparent">
   <FaWhatsapp className="h-4 w-4" />
@@ -81,9 +81,9 @@ export default function Contact() {
   </h3>
 
   <div className="mt-3 flex items-center gap-3">
-    <div className="h-[2px] w-12 bg-orange-500" />
-    <div className="h-2 w-2 rounded-full bg-orange-500" />
-    <div className="h-[2px] w-12 bg-orange-500" />
+    <div className="h-[2px] w-12 bg-[#1679BF]" />
+    <div className="h-2 w-2 rounded-full bg-[#F0C34A]" />
+    <div className="h-[2px] w-12 bg-[#F0C34A]" />
   </div>
 </div>
 
@@ -92,30 +92,30 @@ export default function Contact() {
       href="https://www.instagram.com/nisha_fitness_studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex h-24 w-24 items-center justify-center rounded-3xl border border-orange-500/30 bg-orange-500/10 transition-all duration-300 hover:-translate-y-2 hover:border-orange-500 hover:bg-orange-500/20 hover:shadow-[0_0_30px_rgba(249,115,22,0.35)]"
+      className="group flex h-24 w-24 items-center justify-center rounded-3xl border border-[#F0C34A]/30 bg-[#1679BF]/10 transition-all duration-300 hover:-translate-y-2 hover:border-[#F0C34A] hover:bg-[#1679BF]/20 hover:shadow-[0_0_30px_rgba(22,121,191,0.35)]"
     >
-      <FaInstagram className="h-10 w-10 text-orange-500 transition-transform duration-300 group-hover:scale-110" />
+      <FaInstagram className="h-10 w-10 text-[#F0C34A] transition-transform duration-300 group-hover:scale-110" />
     </a>
 
     <button
      onClick={() => setLeadModalOpen(true)}
-     className="group flex h-24 w-24 items-center justify-center rounded-3xl border border-orange-500/30 bg-orange-500/10 transition-all duration-300 hover:-translate-y-2 hover:border-orange-500 hover:bg-orange-500/20 hover:shadow-[0_0_30px_rgba(249,115,22,0.35)]"
+     className="group flex h-24 w-24 items-center justify-center rounded-3xl border border-[#F0C34A]/30 bg-[#1679BF]/10 transition-all duration-300 hover:-translate-y-2 hover:border-[#F0C34A] hover:bg-[#1679BF]/20 hover:shadow-[0_0_30px_rgba(22,121,191,0.35)]"
 >
-     <FaWhatsapp className="h-10 w-10 text-orange-500 transition-transform duration-300 group-hover:scale-110" />
+     <FaWhatsapp className="h-10 w-10 text-[#F0C34A] transition-transform duration-300 group-hover:scale-110" />
     </button>
 
     <a
       onClick={() => setLeadModalOpen(true)}
-      className="group flex h-24 w-24 items-center justify-center rounded-3xl border border-orange-500/30 bg-orange-500/10 transition-all duration-300 hover:-translate-y-2 hover:border-orange-500 hover:bg-orange-500/20 hover:shadow-[0_0_30px_rgba(249,115,22,0.35)]"
+      className="group flex h-24 w-24 items-center justify-center rounded-3xl border border-[#F0C34A]/30 bg-[#1679BF]/10 transition-all duration-300 hover:-translate-y-2 hover:border-[#F0C34A] hover:bg-[#1679BF]/20 hover:shadow-[0_0_30px_rgba(22,121,191,0.35)]"
     >
-      <Mail className="h-10 w-10 text-orange-500 transition-transform duration-300 group-hover:scale-110" />
+      <Mail className="h-10 w-10 text-[#F0C34A] transition-transform duration-300 group-hover:scale-110" />
     </a>
 
     <a
       href="tel:+91 9866150617"
-      className="group flex h-24 w-24 items-center justify-center rounded-3xl border border-orange-500/30 bg-orange-500/10 transition-all duration-300 hover:-translate-y-2 hover:border-orange-500 hover:bg-orange-500/20 hover:shadow-[0_0_30px_rgba(249,115,22,0.35)]"
+      className="group flex h-24 w-24 items-center justify-center rounded-3xl border border-[#F0C34A]/30 bg-[#1679BF]/10 transition-all duration-300 hover:-translate-y-2 hover:border-[#F0C34A] hover:bg-[#1679BF]/20 hover:shadow-[0_0_30px_rgba(22,121,191,0.35)]"
     >
-      <Phone className="h-10 w-10 text-orange-500 transition-transform duration-300 group-hover:scale-110" />
+      <Phone className="h-10 w-10 text-[#F0C34A] transition-transform duration-300 group-hover:scale-110" />
     </a>
   </div>
 </div>

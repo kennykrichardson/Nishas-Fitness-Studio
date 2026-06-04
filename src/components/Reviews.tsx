@@ -42,9 +42,9 @@ export default function Reviews() {
           </h2>
 
           <div className="mt-4 flex items-center justify-center gap-3">
-            <div className="h-[2px] w-14 bg-orange-500" />
-            <div className="h-2 w-2 rounded-full bg-orange-500" />
-            <div className="h-[2px] w-14 bg-orange-500" />
+            <div className="h-[2px] w-14 bg-[#1679BF]" />
+            <div className="h-2 w-2 rounded-full bg-[#1679BF]" />
+            <div className="h-[2px] w-14 bg-[#1679BF]" />
           </div>
 
           <p className="mx-auto mt-5 max-w-2xl text-stone-400">
@@ -61,7 +61,7 @@ export default function Reviews() {
               className="
                 relative
                 rounded-3xl
-                border border-orange-500/20
+                border border-[#1679BF]/25
                 bg-black/30
                 p-6
                 backdrop-blur-xl
@@ -79,7 +79,7 @@ export default function Reviews() {
             >
               {/* Quote Icon */}
 
-              <Quote className="absolute right-5 top-5 h-8 w-8 text-orange-500/30" />
+              <Quote className="absolute right-5 top-5 h-8 w-8 text-[#1679BF]/30" />
 
               {/* Stars */}
 
@@ -87,7 +87,7 @@ export default function Reviews() {
                 {[...Array(review.rating)].map((_, index) => (
                   <Star
                     key={index}
-                    className="h-5 w-5 fill-orange-500 text-orange-500"
+                    className="h-5 w-5 fill-[#F0C34A] text-[#F0C34A]"
                   />
                 ))}
               </div>
@@ -106,10 +106,10 @@ export default function Reviews() {
                     className="
                       flex h-12 w-12 items-center justify-center
                       rounded-full
-                      border border-orange-500/30
-                      bg-orange-500/10
+                      border border-[#F0C34A]/30
+                      bg-[#1679BF]/10
                       font-black
-                      text-orange-500
+                      text-[#1679BF]
                     "
                   >
                     {review.name.charAt(0)}
@@ -120,7 +120,7 @@ export default function Reviews() {
                       {review.name}
                     </h4>
 
-                    <p className="text-sm text-orange-400">
+                    <p className="text-sm text-[#F0C34A]">
                       {review.role}
                     </p>
                   </div>
@@ -136,8 +136,8 @@ export default function Reviews() {
           className="
             mt-10
             rounded-3xl
-            border border-orange-500/20
-            bg-orange-500/10
+            border border-[#1679BF]/25
+            bg-[#1679BF]/10
             p-6
             text-center
             backdrop-blur-xl
@@ -150,7 +150,7 @@ export default function Reviews() {
             {[...Array(5)].map((_, index) => (
               <Star
                 key={index}
-                className="h-6 w-6 fill-orange-500 text-orange-500"
+                className="h-6 w-6 fill-[#F0C34A] text-[#F0C34A]"
               />
             ))}
           </div>

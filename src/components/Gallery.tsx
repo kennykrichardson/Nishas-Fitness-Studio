@@ -43,7 +43,7 @@ export default function Gallery() {
       className="relative overflow-hidden bg-transparent py-24"
     >
       {/* Background Glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(249,115,22,0.04),transparent_55%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(22,121,191,0.08),transparent_55%)]" />
 
       <div className="relative mx-auto max-w-7xl px-6">
         {/* Header */}
@@ -55,19 +55,19 @@ export default function Gallery() {
           transition={{ duration: 0.6 }}
           className="mb-16 text-center"
         >
-          <p className="mb-3 text-sm font-black uppercase tracking-[0.4em] text-orange-500">
+          <p className="mb-3 text-sm font-black uppercase tracking-[0.4em] text-[#1679BF]">
             Gallery
           </p>
 
           <h2 className="text-4xl font-black uppercase text-white md:text-6xl">
             Inside{" "}
-            <span className="text-orange-500">
+            <span className="text-[#F0C34A]">
               Our Studio
             </span>
           </h2>
 
           <div className="mt-6 flex items-center justify-center gap-5">
-  <div className="h-[2px] w-24 rounded-full bg-orange-500" />
+  <div className="h-[2px] w-24 rounded-full bg-[#1679BF]" />
 
   <img
     src={logo}
@@ -75,7 +75,7 @@ export default function Gallery() {
     className="h-14 w-14 object-contain"
   />
 
-  <div className="h-[2px] w-24 rounded-full bg-orange-500" />
+  <div className="h-[2px] w-24 rounded-full bg-[#F0C34A]" />
 </div>
 
           <p className="mx-auto mt-8 max-w-3xl text-lg text-stone-400">
@@ -98,8 +98,8 @@ export default function Gallery() {
               key={item}
               className={`rounded-full border px-6 py-3 text-sm font-bold uppercase tracking-wider transition-all duration-300 ${
                 index === 0
-                  ? "border-orange-500 bg-orange-500/15 text-orange-400 shadow-[0_0_20px_rgba(249,115,22,0.25)]"
-                  : "border-white/10 bg-white/5 text-stone-300 hover:border-orange-500/40 hover:text-orange-400"
+                  ? "border-[#F0C34A] bg-[#F0C34A]/15 text-[#F0C34A] shadow-[0_0_20px_rgba(249,115,22,0.25)]"
+                  : "border-white/10 bg-white/5 text-stone-300 hover:border-[#F0C34A]/40 hover:text-[#F0C34A]"
               }`}
             >
               {item}
@@ -155,7 +155,7 @@ export default function Gallery() {
                 {/* Content */}
 
                 <div className="flex items-start gap-4 p-6">
-                  <div className="rounded-xl border border-orange-500/40 bg-orange-500/10 p-3 text-orange-500">
+                  <div className="rounded-xl border border-[#F0C34A]/40 bg-[#1679BF]/10 p-3 text-[#1679BF]">
                     <Icon
                       className="h-6 w-6"
                       strokeWidth={2.4}
@@ -197,7 +197,7 @@ export default function Gallery() {
         >
           <a
             href="#contact"
-            className="group inline-flex items-center gap-3 rounded-full border border-orange-500/50 bg-orange-500/10 px-8 py-4 text-sm font-black uppercase tracking-[0.18em] text-orange-400 transition-all duration-300 hover:border-orange-400 hover:bg-orange-500/20"
+            className="group inline-flex items-center gap-3 rounded-full border border-[#F0C34A]/50 bg-[#1679BF]/10 px-8 py-4 text-sm font-black uppercase tracking-[0.18em] text-[#F0C34A] transition-all duration-300 hover:border-[#F0C34A] hover:bg-[#F0C34A]/20"
           >
             View All Photos
 

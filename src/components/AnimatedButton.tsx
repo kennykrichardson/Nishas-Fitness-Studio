@@ -24,11 +24,13 @@ const baseClass =
 
 const variantClass = {
   primary:
-    "orange-gradient text-white shadow-[0_0_28px_rgba(249,115,22,0.32)] hover:shadow-[0_0_42px_rgba(249,115,22,0.48)]",
+    "bg-[#F0C34A] text-[#0A1016] shadow-[0_0_28px_rgba(240,195,74,0.32)] hover:shadow-[0_0_42px_rgba(240,195,74,0.48)]",
+
   secondary:
-    "border border-orange-500 bg-black/30 text-white backdrop-blur hover:bg-orange-500/10",
+    "border border-[#1679BF] bg-black/30 text-white backdrop-blur hover:bg-[#1679BF]/10",
+
   ghost:
-    "border border-orange-500/70 bg-orange-500/10 text-white hover:bg-orange-500/20",
+    "border border-[#F0C34A]/70 bg-[#F0C34A]/10 text-white hover:bg-[#F0C34A]/20",
 };
 
 const buttonSpring = { type: "spring", stiffness: 310, damping: 24, mass: 0.75 } as const;

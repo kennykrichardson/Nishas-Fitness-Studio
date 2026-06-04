@@ -30,10 +30,10 @@ export default function Footer() {
   className="h-12 w-12 object-contain"
 />
             <span className="leading-none">
-              <span className="block text-2xl font-black uppercase tracking-[0.1em] text-orange-500">
+              <span className="block text-2xl font-black uppercase tracking-[0.1em] text-[#F0C34A]">
                 Nisha's
               </span>
-              <span className="block text-[0.68rem] font-bold uppercase tracking-[0.36em] text-sky-400">
+              <span className="block text-[0.68rem] font-bold uppercase tracking-[0.36em] text-[#1679BF]">
                 Fitness Studio
               </span>
             </span>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
 
           <div className="border-white/20 md:border-r md:pr-9">
-            <h3 className="text-sm font-black uppercase tracking-[0.12em] text-orange-500">
+            <h3 className="text-sm font-black uppercase tracking-[0.12em] text-[#F0C34A]">
               Quick Links
             </h3>
             <nav className="mt-4 grid gap-2" aria-label="Footer navigation">
@@ -52,7 +52,7 @@ export default function Footer() {
                 <motion.a
                   key={link.href}
                   href={link.href}
-                  className="focus-ring rounded text-sm text-stone-300 hover:text-orange-300"
+                  className="focus-ring rounded text-sm text-stone-300 hover:text-[#F0C34A]"
                   whileHover={{ x: 4 }}
                   whileTap={{ scale: 0.97 }}
                 >
@@ -63,58 +63,58 @@ export default function Footer() {
           </div>
 
           <div className="border-white/20 md:border-r md:pr-9">
-            <h3 className="text-sm font-black uppercase tracking-[0.12em] text-orange-500">
+            <h3 className="text-sm font-black uppercase tracking-[0.12em] text-[#F0C34A]">
               Contact Us
             </h3>
             <div className="mt-4 grid gap-3 text-sm text-stone-300">
-              <a className="focus-ring flex items-center gap-3 rounded hover:text-orange-300" href="tel:+919866150617">
-                <Phone className="h-4 w-4 text-orange-500" /> +91 98661 50617
+              <a className="focus-ring flex items-center gap-3 rounded hover:text-[#F0C34A]" href="tel:+919866150617">
+                <Phone className="h-4 w-4 text-[#1679BF]" /> +91 98661 50617
               </a>
                 <a
                  href="https://maps.app.goo.gl/465RRbwXa4m8KKqH7"
                  target="_blank"
                  rel="noopener noreferrer"
-                 className="inline-flex items-center gap-2 text-white-400 transition-all duration-300 hover:text-orange-300"
+                 className="inline-flex items-center gap-2 text-white-400 transition-all duration-300 hover:text-[#F0C34A]"
                 >
-                <MapPin className="h-4 w-4 text-orange-500" />
+                <MapPin className="h-4 w-4 text-[#1679BF]" />
                 Click here to find us on the map
                 </a>   
                 <a
                  href="https://www.instagram.com/nisha_fitness_studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                  target="_blank"
                  rel="noopener noreferrer"
-                 className="inline-flex items-center gap-2 text-white-400 transition-all duration-300 hover:text-orange-300"
+                 className="inline-flex items-center gap-2 text-white-400 transition-all duration-300 hover:text-[#F0C34A]"
                 >
-                <FaInstagram className="h-4 w-4 text-orange-500" />
+                <FaInstagram className="h-4 w-4 text-[#1679BF]" />
                 Instagram: @nisha_fitness_studio
                 </a>
                 <a
                  href="mailto:nishasfitnessstudio@gmail.com"
-                 className="inline-flex items-center gap-2 text-stone-300 transition-all duration-300 hover:text-orange-300"
+                 className="inline-flex items-center gap-2 text-stone-300 transition-all duration-300 hover:text-[#F0C34A]"
                 >
-               <Mail className="h-4 w-4 text-orange-500" />
+               <Mail className="h-4 w-4 text-[#1679BF]" />
                nishasfitnessstudio@gmail.com
                </a>        
                 <a
                  href="https://wa.me/919866150617?text=Hi%20Nisha%27s%20Fitness%20Studio%2C%20I%27d%20like%20to%20join."
                  target="_blank"
                  rel="noopener noreferrer"
-                 className="inline-flex items-center gap-2 text-white-400 transition-all duration-300 hover:text-orange-300"
+                 className="inline-flex items-center gap-2 text-white-400 transition-all duration-300 hover:text-[#F0C34A]"
                 >               
-                <FaWhatsapp className="h-4 w-4 text-orange-500" />
+                <FaWhatsapp className="h-4 w-4 text-[#1679BF]" />
                 Message us on WhatsApp
                 </a>
             </div>
           </div>
 
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.12em] text-orange-500">
+            <h3 className="text-sm font-black uppercase tracking-[0.12em] text-[#F0C34A]">
               Hours
             </h3>
             <div className="mt-4 flex gap-4 text-sm leading-6 text-stone-300">
-              <Clock className="mt-1 h-8 w-8 shrink-0 text-orange-500" />
+              <Clock className="mt-1 h-8 w-8 shrink-0 text-[#F0C34A]" />
               <div>
-                <p className="font-bold flex text-orange-500">Monday - Saturday</p>
+                <p className="font-bold flex text-[#F0C34A]">Monday - Saturday</p>
                 <p className="font-bold">05:00 AM - 10:00 AM</p>
 
                 <p className="mt-3 font-bold">05:00 PM - 09:00 PM</p>                
