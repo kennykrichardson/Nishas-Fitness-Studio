@@ -9,7 +9,7 @@ import {
 import { fadeUp, staggerContainer } from "../App";
 import AnimatedButton from "./AnimatedButton";
 
-import about1 from "../assets/about/about1.png";
+import about1 from "../assets/about/about1.jpeg";
 import about2 from "../assets/about/about2.png";
 
 const features = [
@@ -25,12 +25,6 @@ const trainers = [
     alt: "Nishanka",
     name: "Nishanka",
     role: "Founder and Certified Trainer",
-  },
-  {
-    src: about2,
-    alt: "Chinnu",
-    name: "Chinnu",
-    role: "Fitness Coach",
   },
 ];
 

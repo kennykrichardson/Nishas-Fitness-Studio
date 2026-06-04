@@ -85,7 +85,7 @@ ${message || "No additional message."}
     const body = encodeURIComponent(buildMessage());
 
     window.location.href =
-      `mailto:YOUREMAIL@gmail.com?subject=${subject}&body=${body}`;
+      `mailto:nishasfitnessstudio@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (

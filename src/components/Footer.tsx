@@ -87,13 +87,20 @@ export default function Footer() {
                 >
                 <FaInstagram className="h-4 w-4 text-orange-500" />
                 Instagram: @nisha_fitness_studio
-                </a>        
+                </a>
+                <a
+                 href="mailto:nishasfitnessstudio@gmail.com"
+                 className="inline-flex items-center gap-2 text-stone-300 transition-all duration-300 hover:text-orange-300"
+                >
+               <Mail className="h-4 w-4 text-orange-500" />
+               nishasfitnessstudio@gmail.com
+               </a>        
                 <a
                  href="https://wa.me/919866150617?text=Hi%20Nisha%27s%20Fitness%20Studio%2C%20I%27d%20like%20to%20join."
                  target="_blank"
                  rel="noopener noreferrer"
                  className="inline-flex items-center gap-2 text-white-400 transition-all duration-300 hover:text-orange-300"
-                >
+                >               
                 <FaWhatsapp className="h-4 w-4 text-orange-500" />
                 Message us on WhatsApp
                 </a>
@@ -108,9 +115,9 @@ export default function Footer() {
               <Clock className="mt-1 h-8 w-8 shrink-0 text-orange-500" />
               <div>
                 <p className="font-bold flex text-orange-500">Monday - Saturday</p>
-                <p className="font-bold">4:30 AM - 10:30 AM</p>
+                <p className="font-bold">05:00 AM - 10:00 AM</p>
 
-                <p className="mt-3 font-bold">4:30 PM - 10:30 PM</p>                
+                <p className="mt-3 font-bold">05:00 PM - 09:00 PM</p>                
               </div>
             </div>
           </div>

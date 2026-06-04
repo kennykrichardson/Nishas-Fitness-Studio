@@ -8,6 +8,7 @@ import Packages from "./components/Packages";
 import Gallery from "./components/Gallery";
 import abstractBg from "./assets/backgrounds/abstract-bg.png";
 import IntroScreen from "./components/IntroScreen";
+import Reviews from "./components/Reviews";
 
 const easeOutExpo = [0.22, 1, 0.36, 1] as const;
 
@@ -56,6 +57,7 @@ function App() {
         <Packages />
         <About />
         <Gallery />
+        <Reviews />
         <Contact />
       </main>
       <Footer />
